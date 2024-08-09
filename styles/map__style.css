@@ -1,0 +1,176 @@
+@font-face {
+	font-family: Aeroport;
+	src: url(./font/Aeroport-regular-trial.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+.font__family {
+	color: rgba(68, 70, 80, 1);
+
+	font-weight: 400;
+	font-family: Aeroport;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	list-style: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+	color: black;
+}
+
+li a {
+	font-weight: 500;
+	list-style: none;
+	color: black;
+	text-decoration: none;
+}
+
+.nav__one {
+	margin-top: 10px;
+}
+
+.space__between {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.nav-item {
+	color: black;
+}
+
+.nav-link {
+	margin-top: 11px;
+	color: black !important;
+}
+
+.second__nav {
+	margin-top: 0px;
+}
+.for__icon {
+	width: 24px;
+	height: 24px;
+}
+
+nav ul li {
+	position: relative;
+	list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	color: black;
+}
+
+nav ul li ul {
+	position: absolute;
+	left: -10;
+	width: 100%;
+	background: white;
+	display: none;
+}
+nav ul li ul li {
+	left: -40px;
+	z-index: 1;
+	width: 140px;
+	background: white;
+}
+nav ul li:hover > ul {
+	display: initial;
+}
+
+.navbar__second {
+	position: relative;
+}
+
+.nav__pos {
+	position: absolute;
+	left: -60px;
+	top: -15px;
+}
+
+.nav__pos__sec {
+	position: absolute;
+	right: 20px;
+	top: -0px;
+}
+
+.logo__mar {
+	margin-bottom: 20px;
+}
+
+.font__size {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.color {
+	font-weight: 500;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+
+.red__one {
+	color: rgba(229, 0, 25, 1);
+}
+
+.map__img {
+	width: 1300px;
+	height: 200px;
+}
+
+.long__parent {
+	margin-top: 60px;
+}
+
+.img__phone {
+	width: 125px;
+	height: 40px;
+}
+
+.img__social {
+	width: 100px;
+	height: 20px;
+}
+
+.img__email {
+	width: 160px;
+	height: 22px;
+}
+
+.img__adrres {
+	width: 240px;
+	height: 40px;
+}
+.color__red {
+	color: red;
+	text-decoration: none;
+	list-style: none;
+}
+
+.footer {
+	padding: 50px;
+	margin-top: 30px;
+	background: rgba(246, 247, 255, 1);
+	height: 222px;
+	background-size: 100% 542px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footer__parent {
+	padding: 20px;
+	border-bottom: 1px solid grey;
+}
