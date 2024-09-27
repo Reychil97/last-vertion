@@ -1,12 +1,18 @@
 @font-face {
 	font-family: Aeroport;
-	src: url(./font/Aeroport-regular-trial.otf);
-	font-style: normal;
-	font-weight: normal;
+	src: url(/font/Aeroport-light-trial.otf);
 }
-.font__family {
-	font-weight: 700;
-	font-family: Aeroport;
+@font-face {
+	font-family: Aeroport__second;
+	src: url(/font/Aeroport-bold-trial.otf);
+}
+
+@font-face {
+	font-family: Aeroport__third;
+	font-weight: 400;
+	color: rgba(68, 70, 80, 1);
+
+	src: url(/font/Aeroport-light-trial.otf);
 }
 
 * {
@@ -49,6 +55,11 @@ li a {
 .nav-link {
 	margin-top: 11px;
 	color: black !important;
+}
+
+.font__lang {
+	font-weight: 600;
+	font-family: Aeroport;
 }
 
 .second__nav {
@@ -106,12 +117,6 @@ nav ul li:hover > ul {
 .logo__mar {
 	margin-bottom: 20px;
 }
-
-.font__size {
-	font-weight: 500;
-	font-size: 20px;
-}
-
 .color {
 	font-weight: 500;
 	text-decoration: none;
@@ -149,10 +154,6 @@ nav ul li:hover > ul {
 	border-radius: 8px;
 }
 
-.txt {
-	width: 380px;
-}
-
 .second__parent {
 	display: flex;
 	gap: 20px;
@@ -182,11 +183,6 @@ nav ul li:hover > ul {
 .push__size {
 	width: 118px;
 	height: 56px;
-}
-
-.txt__font {
-	color: rgba(63, 68, 104, 1);
-	font-size: 14px;
 }
 
 .desc__cards {
@@ -264,6 +260,101 @@ nav ul li:hover > ul {
 .five__parent {
 	margin-top: 40px;
 }
+
+/* Changing moments */
+
+.txt__font {
+	font-weight: 900;
+	font-family: Aeroport;
+	color: rgba(63, 68, 104, 1);
+	font-size: 14px;
+}
+
+.work__txt {
+	font-weight: 1000;
+}
+
+.number {
+	gap: 5px;
+	margin-right: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.right__pos {
+	margin-right: 10px;
+}
+.tiny {
+	font-weight: 400;
+}
+
+.red__one {
+	color: red;
+}
+
+.second__number {
+	margin-right: 10px;
+}
+.txt__zag {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Aeroport__second;
+}
+
+.txt {
+	font-family: Aeroport__third;
+	font-weight: 400;
+	width: 380px;
+}
+
+.cards {
+	font-size: 30px;
+	font-weight: 900;
+	transition: 0.4s;
+}
+
+.cards:hover {
+	transform: scale(1.2);
+}
+
+.six__child {
+	transition: 0.5s;
+}
+
+.six__child:hover {
+	transform: scale(1.4);
+}
+
+/* end of changes */
+
+/* footer change */
+
+.numb__footer {
+	font-weight: 700;
+	color: rgba(15, 21, 66, 1);
+}
+
+.txt__footer__colm {
+	font-family: Aeroport__third;
+	font-weight: 400;
+	color: rgba(15, 21, 66, 1);
+	margin-left: 5px;
+}
+
+.last__txt {
+	font-family: Aeroport__second;
+	font-weight: 800;
+}
+
+.font__bold {
+	font-family: 'Aeroport';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+/* end of change */
 
 .img__10 {
 	width: 620px;

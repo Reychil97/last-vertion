@@ -1,8 +1,18 @@
 @font-face {
 	font-family: Aeroport;
-	src: url(./font/Aeroport-regular-trial.otf);
-	font-style: normal;
-	font-weight: normal;
+	src: url(/font/Aeroport-light-trial.otf);
+}
+@font-face {
+	font-family: Aeroport__second;
+	src: url(/font/Aeroport-bold-trial.otf);
+}
+
+@font-face {
+	font-family: Aeroport__third;
+	font-weight: 400;
+	color: rgba(68, 70, 80, 1);
+
+	src: url(/font/Aeroport-light-trial.otf);
 }
 .font__family {
 	font-weight: 500;
@@ -186,6 +196,73 @@ nav ul li:hover > ul {
 	padding: 20px;
 	border-bottom: 1px solid grey;
 }
+
+/* Some new endings */
+
+.number {
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.right__pos {
+	margin-right: 10px;
+}
+.tiny {
+	font-weight: 400;
+}
+
+.red__one {
+	color: red;
+}
+
+.second__number {
+	margin-right: 10px;
+}
+
+.font__size {
+	margin-top: 6px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.txt__font {
+	font-weight: 900;
+	font-family: Aeroport;
+	color: rgba(63, 68, 104, 1);
+	font-size: 14px;
+}
+
+/* end of endings */
+
+/* footer change */
+
+.numb__footer {
+	font-weight: 700;
+	color: rgba(15, 21, 66, 1);
+}
+
+.txt__footer__colm {
+	font-family: Aeroport__third;
+	font-weight: 400;
+	color: rgba(15, 21, 66, 1);
+	margin-left: 5px;
+}
+
+.last__txt {
+	font-family: Aeroport__second;
+	font-weight: 800;
+}
+
+.font__bold {
+	font-family: 'Aeroport';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+/* end of change */
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
 	.logo__mar {

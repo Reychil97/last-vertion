@@ -1,15 +1,23 @@
 @font-face {
 	font-family: Aeroport;
-	src: url(./font/Aeroport-regular-trial.otf);
-	font-style: normal;
-	font-weight: normal;
+	src: url(/font/Aeroport-light-trial.otf);
+}
+@font-face {
+	font-family: Aeroport__second;
+	src: url(/font/Aeroport-bold-trial.otf);
 }
 
-.font__family {
+@font-face {
+	font-family: Aeroport__third;
+	font-weight: 400;
 	color: rgba(68, 70, 80, 1);
 
+	src: url(/font/Aeroport-light-trial.otf);
+}
+.Aeroport__third {
+	font-family: Aeroport__third;
 	font-weight: 400;
-	font-family: Aeroport;
+	color: rgba(68, 70, 80, 1);
 }
 
 * {
@@ -181,6 +189,92 @@ nav ul li:hover > ul {
 	padding: 20px;
 	border-bottom: 1px solid grey;
 }
+
+/* Changing moments */
+
+.txt__font {
+	font-weight: 900;
+	font-family: Aeroport;
+	color: rgba(63, 68, 104, 1);
+	font-size: 14px;
+}
+
+.work__txt {
+	font-weight: 1000;
+}
+
+.number {
+	gap: 5px;
+	margin-right: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.right__pos {
+	margin-right: 10px;
+}
+.tiny {
+	font-weight: 400;
+}
+
+.hover__effect {
+	font-weight: 900;
+	transition: 0.7s;
+}
+
+.hover__effect:hover {
+	transform: scaleX(0.9);
+}
+
+.red__one {
+	color: red;
+}
+
+.second__number {
+	margin-right: 10px;
+}
+.txt__zag {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Aeroport__second;
+}
+
+.txt {
+	font-family: Aeroport__third;
+	font-weight: 400;
+	width: 380px;
+}
+
+/* end of changes */
+
+/* footer change */
+
+.numb__footer {
+	font-weight: 700;
+	color: rgba(15, 21, 66, 1);
+}
+
+.txt__footer__colm {
+	font-family: Aeroport__third;
+	font-weight: 400;
+	color: rgba(15, 21, 66, 1);
+	margin-left: 5px;
+}
+
+.last__txt {
+	font-family: Aeroport__second;
+	font-weight: 800;
+}
+
+.font__bold {
+	font-family: 'Aeroport';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+/* end of change */
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
 	.logo__mar {

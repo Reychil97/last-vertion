@@ -10,6 +10,8 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
 		<title>Government uz</title>
 	</head>
 	<body>
@@ -46,14 +48,25 @@
 									class="dropdown-menu justify-content-center align-items-center down"
 									aria-labelledby="navbarScrollingDropdown "
 								>
-									<span class="language ./font__family">
-										<a class="dropdown-item" href="#"
-											><img src="./img/russ.png" alt="" />Русский
+									<span class="language">
+										<a class="font__lang" class="dropdown-item" href="#"
+											><img
+												src="./img/russ.png"
+												class="right__pos"
+												alt=""
+											/>Русский
 										</a></span
 									>
-									<span class="language ./font__family">
-										<a class="dropdown-item language" href="#"
-											><img src="./img/uzb.png" alt="" />O‘zbekcha</a
+									<span class="language">
+										<a
+											class="font__lang"
+											class="dropdown-item language"
+											href="#"
+											><img
+												src="./img/uzb.png"
+												class="right__pos"
+												alt=""
+											/>O‘zbekcha</a
 										></span
 									>
 								</div>
@@ -69,7 +82,7 @@
 			<div class="container">
 				<div
 					class="navbar__second d-flex justify-content-center justify-content-between"
-				 >
+				>
 					<div class="nav__pos">
 						<ul class="d-flex gap-2 space__all">
 							<li><a href="index.html">Главная страница</a></li>
@@ -97,13 +110,65 @@
 					</div>
 					<div class="nav__pos__sec">
 						<ul class="d-flex gap-4 align-items-center justify-content-center">
-							<li class="d-flex number">
-								<img src="../img/phone.png" alt="" />
-								<h6 class="font__size">+998 71 200-46-46</h6>
+							<li class="d-flex number second__number">
+								<span
+									><svg
+										width="24"
+										height="25"
+										viewBox="0 0 24 25"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M9.36556 11.1821C10.302 12.8288 11.6712 14.198 13.3179 15.1344L14.2024 13.8961C14.4965 13.4845 15.0516 13.3573 15.4956 13.5998C16.9024 14.3683 18.4571 14.8353 20.0789 14.9637C20.599 15.0049 21 15.4389 21 15.9606V20.4234C21 20.9361 20.6122 21.3657 20.1022 21.4181C19.5723 21.4726 19.0377 21.5 18.5 21.5C9.93959 21.5 3 14.5604 3 6C3 5.46227 3.02742 4.92771 3.08189 4.39776C3.1343 3.88775 3.56394 3.5 4.07665 3.5H8.53942C9.0611 3.5 9.49513 3.90104 9.5363 4.42109C9.66467 6.04288 10.1317 7.59764 10.9002 9.00444C11.1427 9.4484 11.0155 10.0035 10.6039 10.2976L9.36556 11.1821ZM6.84425 10.5252L8.7442 9.16809C8.20547 8.00514 7.83628 6.77183 7.64727 5.5H5.00907C5.00303 5.66632 5 5.833 5 6C5 13.4558 11.0442 19.5 18.5 19.5C18.667 19.5 18.8337 19.497 19 19.4909V16.8527C17.7282 16.6637 16.4949 16.2945 15.3319 15.7558L13.9748 17.6558C13.4258 17.4425 12.8956 17.1915 12.3874 16.9061L12.3293 16.873C10.3697 15.7587 8.74134 14.1303 7.627 12.1707L7.59394 12.1126C7.30849 11.6044 7.05754 11.0742 6.84425 10.5252Z"
+											fill="#E50019"
+										/>
+									</svg>
+								</span>
+								<h6 class="font__size">
+									<span class="tiny">+998 71</span> 200-46-46
+								</h6>
 							</li>
-							<li class="d-flex gap-2">
-								<img src="../img/cheking.png" alt="" />
-								<h6 class="font__size">Подайте заявку</h6>
+							<li class="d-flex number">
+								<span
+									><svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g clip-path="url(#clip0_148_2455)">
+											<path
+												d="M10.1538 4H6.46154C5.8087 4 5.1826 4.25934 4.72097 4.72097C4.25934 5.1826 4 5.8087 4 6.46154V17.5385C4 18.1913 4.25934 18.8174 4.72097 19.279C5.1826 19.7407 5.8087 20 6.46154 20H17.5385C18.1913 20 18.8174 19.7407 19.279 19.279C19.7407 18.8174 20 18.1913 20 17.5385V13.8462"
+												stroke="#E50019"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M9 15.0002H12L20.5 6.50023C20.8978 6.1024 21.1213 5.56284 21.1213 5.00023C21.1213 4.43762 20.8978 3.89805 20.5 3.50023C20.1022 3.1024 19.5626 2.87891 19 2.87891C18.4374 2.87891 17.8978 3.1024 17.5 3.50023L9 12.0002V15.0002Z"
+												stroke="#E50019"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M16 5L19 8"
+												stroke="#E50019"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_148_2455">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</span>
+								<h6 class="font__size red__one">Подайте заявку</h6>
 							</li>
 						</ul>
 					</div>
@@ -168,7 +233,7 @@
 				<div
 					class="d-flex align-items-center justify-content-between center__txt"
 				>
-					<h5 class="news__txt">Новости и акции</h5>
+					<h5 class="news__txt txt__zag">Новости и акции</h5>
 					<div class="d-flex align-items-center second__parent">
 						<h6>
 							<a href="./pages/news__and__stock.html" class="color"
@@ -181,9 +246,16 @@
 				<div class="respon__parent">
 					<div class="second__parent respon__parent">
 						<div class="main__card">
-							<img class="first__img__size" src="../img/1.png" alt="" />
+							<img
+								class="first__img__size"
+								data-aos="flip-left"
+								data-aos-easing="ease-out-cubic"
+								data-aos-duration="2000"
+								src="../img/1.png"
+								alt=""
+							/>
 							<div class="words d-flex flex-column">
-								<h6 class="txt txt__2">
+								<h6 class="txt__2 txt__zag">
 									Перспективы взаимного сотрудничество между ГУП «Unicon.uz»,
 									«Cross Technologies» и ДУК «Центр кибербезопасности»
 								</h6>
@@ -204,7 +276,13 @@
 							</div>
 						</div>
 						<div class="parent__for__mini__card">
-							<div class="minicard gap-4 position__two">
+							<div
+								class="minicard gap-4 position__two"
+								data-aos="fade-left"
+								data-aos-anchor="#example-anchor"
+								data-aos-offset="500"
+								data-aos-duration="500"
+							>
 								<img class="mini__img" src="../img/2.png" alt="" />
 								<div>
 									<h6 class="txt txt_3">
@@ -220,7 +298,12 @@
 									</div>
 								</div>
 							</div>
-							<div class="minicard gap-4 position">
+							<div
+								class="minicard gap-4 position"
+								data-aos="fade-right"
+								data-aos-offset="300"
+								data-aos-easing="ease-in-sine"
+							>
 								<img class="mini__img" src="../img/3.png" alt="" />
 								<div>
 									<h6 class="txt txt_3">
@@ -246,19 +329,19 @@
 			<div class="container">
 				<div class="third__parent gap-1">
 					<div class="d-flex flex-column gap-4 production">
-						<h4 class="" >Продукты</h5>
-						<span class="txt__font"
+						<h3 class="txt__zag">Продукты</h3>
+						<span class="txt__font .font__family"
 							>Единая система контроля исполнительской дисциплины — электронный
 							документооборот, который обеспечивает контроль исполнительской
 							дисциплины</span
 						>
 						<img class="push__size" src="../img/push.png" alt="" />
 					</div>
-					<div class=" desc__cards  ">
+					<div class="desc__cards">
 						<div class="cards">
 							<img class="icon__img" src="../img/icon1.png" alt="" />
-							<h6>I-Sign.uz</h6>
-							<p class="txt__font ">
+							<h6 class="txt__zag">I-Sign.uz</h6>
+							<p class="txt__font">
 								Электронная система автоматизации процесса согласования
 								договоров. Данная система позволяет заключить договор с клиентом
 								в электронном виде
@@ -266,8 +349,8 @@
 						</div>
 						<div class="cards">
 							<img class="icon__img" src="../img/icon1.png" alt="" />
-							<h6>I-Sign.uz</h6>
-							<p class="txt__font ">
+							<h6 class="txt__zag">I-Sign.uz</h6>
+							<p class="txt__font">
 								Электронная система автоматизации процесса согласования
 								договоров. Данная система позволяет заключить договор с клиентом
 								в электронном виде
@@ -275,8 +358,8 @@
 						</div>
 						<div class="cards">
 							<img class="icon__img" src="../img/icon1.png" alt="" />
-							<h6>I-Sign.uz</h6>
-							<p class="txt__font ">
+							<h6 class="txt__zag">I-Sign.uz</h6>
+							<p class="txt__font">
 								Электронная система автоматизации процесса согласования
 								договоров. Данная система позволяет заключить договор с клиентом
 								в электронном виде
@@ -290,17 +373,29 @@
 		<div class="four__page">
 			<div class="container">
 				<div class="four__parent">
-					<h2 class="white center ">Исполнение в цифрах</h2>
-					<div class="d-flex  align-items-center gap-4 justify-content-center four__problem">
-						<div class="child__one">
+					<h2 class="white center">Исполнение в цифрах</h2>
+					<div
+						class="d-flex align-items-center gap-4 justify-content-center four__problem"
+					>
+						<div
+							class="child__one"
+							data-aos="flip-left"
+							data-aos-easing="ease-out-cubic"
+							data-aos-duration="2000"
+						>
 							<img src="../img/4.png" alt="" />
 							<h1 class="white white__number">1200</h1>
-							<span class="white ">Пользователи</span>
+							<span class="white">Пользователи</span>
 						</div>
 						<div class="d-flex flex-column gap-4">
 							<div class="d-flex mini__four gap-4">
-								<div class="child__second">
-									<div>
+								<div
+									class="child__second"
+									data-aos="fade-down"
+									data-aos-easing="linear"
+									data-aos-duration="1500"
+								>
+									<div class="">
 										<h1 class="white white__number">410</h1>
 										<span class="white ./font__family">Организации</span>
 									</div>
@@ -308,8 +403,13 @@
 										<img src="../img/5.png" alt="" />
 									</div>
 								</div>
-								<div class="child__second">
-									<div>
+								<div
+									class="child__second"
+									data-aos="fade-down"
+									data-aos-easing="linear"
+									data-aos-duration="1500"
+								>
+									<div class="">
 										<h1 class="white white__number">100</h1>
 										<span class="white ./font__family">Органы</span>
 									</div>
@@ -319,16 +419,26 @@
 								</div>
 							</div>
 							<div class="d-flex mini__four gap-4">
-								<div class="child__second">
-									<div>
-										<h1 class="white white__number">150 000</h1>
+								<div
+									class="child__second"
+									data-aos="fade-up"
+									data-aos-duration="3000"
+								>
+									<div class="benefits__element">
+										<h1 class="white white__number benefits__number">
+											150 000
+										</h1>
 										<span class="white ./font__family">Задачи</span>
 									</div>
 									<div>
 										<img src="../img/6.png" alt="" />
 									</div>
 								</div>
-								<div class="child__second">
+								<div
+									class="child__second"
+									data-aos="fade-up"
+									data-aos-duration="3000"
+								>
 									<div>
 										<h1 class="white white__number">100</h1>
 										<span class="white ./font__family">Местные власти</span>
@@ -339,7 +449,12 @@
 								</div>
 							</div>
 						</div>
-						<div class="child__one">
+						<div
+							class="child__one"
+							data-aos="flip-left"
+							data-aos-easing="ease-out-cubic"
+							data-aos-duration="2000"
+						>
 							<img src="../img/9.png" alt="" />
 							<h1 class="white white__number">2.000.000</h1>
 							<span class="white ./font__family">Документы</span>
@@ -347,20 +462,35 @@
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>
 		<!-- end of  four page-->
 		<div class="five__page">
 			<div class="container">
 				<div class="five__parent">
-					<h3 class="for__title ./font__family">Интерактивная карта</h3>
+					<h3 class="for__title ./font__family txt__zag">
+						Интерактивная карта
+					</h3>
 					<div class="five__child d-flex">
-						<img class="map__img" src="../img/map.png" alt="" />
-						<img class="kon__img" src="../img/kondidat.png" alt="" />
+						<img
+							class="map__img"
+							data-aos="fade-right"
+							data-aos-offset="300"
+							data-aos-easing="ease-in-sine"
+							src="../img/map.png"
+							alt=""
+						/>
+						<img
+							class="kon__img"
+							data-aos="fade-up"
+							data-aos-anchor-placement="top-center"
+							src="../img/kondidat.png"
+							alt=""
+						/>
 					</div>
 				</div>
 				<div>
-					<div class="d-flex  justify-content-between ./font__family">
-						<h4>Галерея</h4>
+					<div class="d-flex justify-content-between ./font__family">
+						<h4 class="txt__zag">Галерея</h4>
 						<a class="none" href="./pages/gallery.html"
 							><span>Все медиа <img src="../img/left.png" alt="" /></span
 						></a>
@@ -369,24 +499,49 @@
 						class="d-flex pre__last justify-content-center align-items-center five__second__child"
 					>
 						<div>
-							<img class="img__10" src="../img/10.png" alt="" />
+							<img
+								class="img__10"
+								data-aos="zoom-in-up"
+								src="../img/10.png"
+								alt=""
+							/>
 						</div>
 						<div class="d-flex flex-column gap-4">
-							<img class="litle__img" src="../img/11.png" alt="" />
-							<img class="litle__img" src="../img/12.png" alt="" />
+							<img
+								class="litle__img"
+								data-aos="zoom-in-down"
+								src="../img/11.png"
+								alt=""
+							/>
+							<img
+								class="litle__img"
+								data-aos="zoom-in-left"
+								src="../img/12.png"
+								alt=""
+							/>
 						</div>
 						<div class="d-flex flex-column gap-4">
-							<img class="litle__img" src="../img/13.png" alt="" />
-							<img class=" last__img litle__img" src="../img/14.png" alt="" />
+							<img
+								class="litle__img"
+								data-aos="zoom-out-up"
+								src="../img/13.png"
+								alt=""
+							/>
+							<img
+								class="last__img litle__img"
+								data-aos="zoom-out-down"
+								src="../img/14.png"
+								alt=""
+							/>
 						</div>
 					</div>
 				</div>
 			</div>
-		 </div>
+		</div>
 		<!-- end of five page -->
 		<div class="six__page">
 			<div class="container">
-				<h3 class="center ./font__family">Наши партнеры</h3>
+				<h3 class="center txt__zag">Наши партнеры</h3>
 				<div
 					class="six__parent d-flex justify-content-between justify-content-center align-items-center gap-3"
 				>
@@ -396,7 +551,7 @@
 						<span>Республики Узбекистан</span>
 					</div>
 					<div class="six__child d-flex flex-column ./font__family">
-						<img  src="../img/16.png" alt="" />
+						<img src="../img/16.png" alt="" />
 						<span>Министерство юстиции </span>
 						<span> Республики Узбекистан</span>
 					</div>
@@ -421,17 +576,14 @@
 						<span>Республики Узбекистан</span>
 					</div>
 				</div>
-				<div class="center__obj">
-					<img src="../img/push.png" alt="" />
-				</div>
 			</div>
 		</div>
 		<!-- end of six page -->
-		<div class="footer ./font__family">
+		<div class="footer">
 			<div class="container">
 				<div
 					class="footer__parent d-flex justify-content-between justify-content-center align-items-center"
-				 >
+				>
 					<div class="">
 						<div class="d-flex align-items-center">
 							<img src="../img/Logo.png" alt="" />
@@ -439,30 +591,59 @@
 						</div>
 						<h6>2023 OOO «Unicon Soft»</h6>
 					</div>
-					<div >
-						<ul class="footer__child">
+					<div>
+						<ul class="footer__child font__bold">
 							<li><a href="index.html">Главная страница</a></li>
 							<li><a href="./pages/management.html">Модули</a></li>
 							<li><a href="./pages/instruction.html">Инструкция</a></li>
 						</ul>
 					</div>
-					<div >
-						<ul class="footer__child">
+					<div>
+						<ul class="footer__child font__bold">
 							<li><a href="./pages/products.html">Продукты</a></li>
 							<li><a href="./pages/management.html">Структура</a></li>
 							<li><a href="./pages/kontact.html">Контакты</a></li>
 						</ul>
 					</div>
-						<div class="footer__child last__exp d-flex flex-column gap-2">
-						  <img class="img__social footer__child" src="../img/social.png" alt="" />
-						  <img class="img__phone footer__child" src="../img/num.png" alt="" />
-				   	</div>
-					  <div class="footer__child d-flex flex-column gap-2">
-					   	<img class="img__email footer__child" src="../img/email.png" alt="" />
-						  <img class="img__adrres footer__child" src="../img/adrres.png" alt="" />
-				   	</div>
+					<div class="footer__child last__exp d-flex flex-column gap-2">
+						<img
+							class="img__social footer__child"
+							src="../img/social.png"
+							alt=""
+						/>
+						<div class="d-flex align-items-center justify-content-center">
+							<div>
+								<img src="./img/Frame.png" alt="" />
+							</div>
+							<div class="d-flex flex-column">
+								<span class="numb__footer">+998 71 200-46-46</span>
+								<span class="txt__footer__colm">Свяжитесь с нами</span>
+							</div>
+						</div>
+					</div>
+					<div class="footer__child d-flex flex-column gap-2">
+						<div>
+							<img src="./img/pochta.png" alt="" />
+							<span class="txt__footer__colm last__txt"
+								>info@uniconsoft.uz</span
+							>
+						</div>
+						<div class="d-flex align-items-center">
+							<div>
+								<img src="./img/local.png" alt="" />
+							</div>
+							<div class="d-flex flex-column">
+								<span class="txt__footer__colm last__txt"
+									>Узбекистан, Ташкент, МИРЗО-</span
+								>
+								<span class="txt__footer__colm last__txt"
+									>УЛУГБЕКСКИЙ РАЙОН, м-в Карасу-2</span
+								>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="d-flex justify-content-between align-items-center last ">
+				<div class="d-flex justify-content-between align-items-center last">
 					<div>
 						<h6 class="">Все права защищены</h6>
 					</div>
@@ -472,12 +653,15 @@
 				</div>
 			</div>
 		</div>
-
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<link rel="stylesheet" href="./index.main.js" />
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			AOS.init()
+		</script>
 	</body>
 </html>

@@ -11,6 +11,7 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+			<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 	</head>
 	<body>
 			<nav class="nav__one">
@@ -19,16 +20,16 @@
 					class="d-flex justify-content-between nav__icon align-items-center"
 				>
 					<div class="logo__mar">
-						<img class="logo__size" src="../img/Logo.png" alt="" />
-						<a class="logo__desc" href="/index.html"
-							><img src="../img/name.png" alt=""
+						<img class="logo__size" src="/img/Logo.png" alt="" />
+						<a class="logo__desc" href="index.html"
+							><img src="/img/name.png" alt=""
 						/></a>
 					</div>
 					<div class="space__between">
-						<img class="for__icon respon__logo" src="../img/lupa.png" alt="" />
-						<img class="for__icon respon__logo" src="../img/show.png" alt="" />
+						<img class="for__icon respon__logo" src="/img/lupa.png" alt="" />
+						<img class="for__icon respon__logo" src="/img/show.png" alt="" />
 						<a href="/pages/map.html"
-							><img class="for__icon" src="../img/book.png" alt=""
+							><img class="for__icon" src="/img/book.png" alt=""
 						/></a>
 						<ul class="nav__drop">
 							<li class="nav-item dropdown">
@@ -46,20 +47,31 @@
 									class="dropdown-menu justify-content-center align-items-center down"
 									aria-labelledby="navbarScrollingDropdown "
 								>
-									<span class="language ./font__family">
-										<a class="dropdown-item" href="#"
-											><img src="../img/russ.png" alt="" />Русский
+									<span class="language">
+										<a class="font__lang" class="dropdown-item" href="#"
+											><img
+												src="/img/russ.png"
+												class="right__pos"
+												alt=""
+											/>Русский
 										</a></span
 									>
-									<span class="language ./font__family">
-										<a class="dropdown-item language" href="#"
-											><img src="../img/uzb.png" alt="" />O‘zbekcha</a
+									<span class="language">
+										<a
+											class="font__lang"
+											class="dropdown-item language"
+											href="#"
+											><img
+												src="/img/uzb.png"
+												class="right__pos"
+												alt=""
+											/>O‘zbekcha</a
 										></span
 									>
 								</div>
 							</li>
 						</ul>
-						<img class="for__icon respon__logo" src="../img/menu.png" alt="" />
+						<img class="for__icon respon__logo" src="/img/menu.png" alt="" />
 					</div>
 				</div>
 			</div>
@@ -97,13 +109,65 @@
 					</div>
 					<div class="nav__pos__sec">
 						<ul class="d-flex gap-4 align-items-center justify-content-center">
-							<li class="d-flex number">
-								<img src="../img/phone.png" alt="" />
-								<h6 class="font__size">+998 71 200-46-46</h6>
+							<li class="d-flex number second__number">
+								<span
+									><svg
+										width="24"
+										height="25"
+										viewBox="0 0 24 25"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M9.36556 11.1821C10.302 12.8288 11.6712 14.198 13.3179 15.1344L14.2024 13.8961C14.4965 13.4845 15.0516 13.3573 15.4956 13.5998C16.9024 14.3683 18.4571 14.8353 20.0789 14.9637C20.599 15.0049 21 15.4389 21 15.9606V20.4234C21 20.9361 20.6122 21.3657 20.1022 21.4181C19.5723 21.4726 19.0377 21.5 18.5 21.5C9.93959 21.5 3 14.5604 3 6C3 5.46227 3.02742 4.92771 3.08189 4.39776C3.1343 3.88775 3.56394 3.5 4.07665 3.5H8.53942C9.0611 3.5 9.49513 3.90104 9.5363 4.42109C9.66467 6.04288 10.1317 7.59764 10.9002 9.00444C11.1427 9.4484 11.0155 10.0035 10.6039 10.2976L9.36556 11.1821ZM6.84425 10.5252L8.7442 9.16809C8.20547 8.00514 7.83628 6.77183 7.64727 5.5H5.00907C5.00303 5.66632 5 5.833 5 6C5 13.4558 11.0442 19.5 18.5 19.5C18.667 19.5 18.8337 19.497 19 19.4909V16.8527C17.7282 16.6637 16.4949 16.2945 15.3319 15.7558L13.9748 17.6558C13.4258 17.4425 12.8956 17.1915 12.3874 16.9061L12.3293 16.873C10.3697 15.7587 8.74134 14.1303 7.627 12.1707L7.59394 12.1126C7.30849 11.6044 7.05754 11.0742 6.84425 10.5252Z"
+											fill="#E50019"
+										/>
+									</svg>
+								</span>
+								<h6 class="font__size">
+									<span class="tiny">+998 71</span> 200-46-46
+								</h6>
 							</li>
-							<li class="d-flex gap-2">
-								<img src="../img/cheking.png" alt="" />
-								<h6 class="font__size">Подайте заявку</h6>
+							<li class="d-flex number">
+								<span
+									><svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g clip-path="url(#clip0_148_2455)">
+											<path
+												d="M10.1538 4H6.46154C5.8087 4 5.1826 4.25934 4.72097 4.72097C4.25934 5.1826 4 5.8087 4 6.46154V17.5385C4 18.1913 4.25934 18.8174 4.72097 19.279C5.1826 19.7407 5.8087 20 6.46154 20H17.5385C18.1913 20 18.8174 19.7407 19.279 19.279C19.7407 18.8174 20 18.1913 20 17.5385V13.8462"
+												stroke="#E50019"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M9 15.0002H12L20.5 6.50023C20.8978 6.1024 21.1213 5.56284 21.1213 5.00023C21.1213 4.43762 20.8978 3.89805 20.5 3.50023C20.1022 3.1024 19.5626 2.87891 19 2.87891C18.4374 2.87891 17.8978 3.1024 17.5 3.50023L9 12.0002V15.0002Z"
+												stroke="#E50019"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M16 5L19 8"
+												stroke="#E50019"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_148_2455">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</span>
+								<h6 class="font__size red__one">Подайте заявку</h6>
 							</li>
 						</ul>
 					</div>
@@ -122,10 +186,12 @@
 				 >
 					<div class="d-flex child__other flex-column gap-5">
 						<div
-							class="cards d-flex gap-4 justify-content-center align-items-center"
+							class="cards d-flex gap-4 justify-content-center align-items-center" data-aos="flip-up"
 						 >
 							<div>
-								<img class="card__img" src="../instruction__img/1.png" alt="" />
+								<img class="card__img" data-aos="fade-right"
+                   data-aos-offset="300"
+                   data-aos-easing="ease-in-sine" src="../instruction__img/1.png" alt="" />
 							</div>
 							<div class="d-flex flex-column">
 								<h4>IJRO-OFFICE</h4>
@@ -140,10 +206,13 @@
 							</div>
 						</div>
 						<div
-							class="cards d-flex gap-4 justify-content-center align-items-center"
-						>
+							class="cards d-flex gap-4 justify-content-center align-items-center" data-aos="flip-down"
+						 >
 							<div>
-								<img class="card__img" src="../instruction__img/2.png" alt="" />
+								<img class="card__img" data-aos="fade-left"
+                 data-aos-anchor="#example-anchor"
+                 data-aos-offset="500"
+                 data-aos-duration="500" src="../instruction__img/2.png" alt="" />
 							</div>
 							<div class="d-flex flex-column">
 								<h4>КИС «Адолат»</h4>
@@ -159,10 +228,12 @@
 							</div>
 						</div>
 						<div
-							class="cards d-flex gap-4 justify-content-center align-items-center"
-						>
+							class="cards d-flex gap-4 justify-content-center align-items-center" data-aos="flip-up"
+						 >
 							<div>
-								<img class="card__img" src="../instruction__img/3.png" alt="" />
+								<img class="card__img" data-aos="fade-right"
+                   data-aos-offset="300"
+                   data-aos-easing="ease-in-sine" src="../instruction__img/3.png" alt="" />
 							</div>
 							<div class="d-flex flex-column">
 								<h4>IJRO.GOV.UZ</h4>
@@ -179,10 +250,12 @@
 					</div>
 					<div class="d-flex child__other flex-column gap-5">
 						<div
-							class="cards d-flex gap-4 justify-content-center align-items-center"
+							class="cards d-flex gap-4 justify-content-center align-items-center" data-aos="flip-up"
 						>
 							<div>
-								<img class="card__img" src="../instruction__img/4.png" alt="" />
+								<img class="card__img" data-aos="fade-right"
+                   data-aos-offset="300"
+                   data-aos-easing="ease-in-sine" src="../instruction__img/4.png" alt="" />
 							</div>
 							<div class="d-flex flex-column">
 								<h4>E-XSUD</h4>
@@ -197,10 +270,13 @@
 							</div>
 						</div>
 						<div
-							class="cards d-flex gap-4 justify-content-center align-items-center"
+							class="cards d-flex gap-4 justify-content-center align-items-center" data-aos="flip-down"
 						>
 							<div>
-								<img class="card__img" src="../instruction__img/5.png" alt="" />
+								<img class="card__img" data-aos="fade-left"
+                 data-aos-anchor="#example-anchor"
+                 data-aos-offset="500"
+                 data-aos-duration="500" src="../instruction__img/5.png" alt="" />
 							</div>
 							<div class="d-flex flex-column">
 								<h4>E-xat</h4>
@@ -215,10 +291,12 @@
 							</div>
 						</div>
 						<div
-							class="cards d-flex gap-4 justify-content-center align-items-center"
+							class="cards d-flex gap-4 justify-content-center align-items-center" data-aos="flip-up"
 						 >
 							<div>
-								<img class="card__img" src="../instruction__img/6.png" alt="" />
+								<img class="card__img" data-aos="fade-right"
+                   data-aos-offset="300"
+                   data-aos-easing="ease-in-sine" src="../instruction__img/6.png" alt="" />
 							</div>
 							<div class="d-flex flex-column">
 								<h4 class="desc__word__two">Единая система контроля исполнительской дисциплины</h4>
@@ -244,44 +322,61 @@
 				>
 					<div class="">
 						<div class="d-flex align-items-center">
-							<img src="../img/Logo.png" alt="" />
-							<img src="../img/name.png" alt="" />
+							<img src="/img/Logo.png" alt="" />
+							<img src="/img/name.png" alt="" />
 						</div>
 						<h6>2023 OOO «Unicon Soft»</h6>
 					</div>
 					<div>
-						<ul class="footer__child">
+						<ul class="footer__child font__bold">
 							<li><a href="/index.html">Главная страница</a></li>
 							<li><a href="/pages/management.html">Модули</a></li>
 							<li><a href="/pages/instruction.html">Инструкция</a></li>
 						</ul>
 					</div>
 					<div>
-						<ul class="footer__child">
-							<li><a href="products.html">Продукты</a></li>
-							<li><a href="management.html">Структура</a></li>
-							<li><a href="kontact.html">Контакты</a></li>
+						<ul class="footer__child font__bold">
+							<li><a href="./products.html">Продукты</a></li>
+							<li><a href="./pages/management.html">Структура</a></li>
+							<li><a href="./pages/kontact.html">Контакты</a></li>
 						</ul>
 					</div>
 					<div class="footer__child last__exp d-flex flex-column gap-2">
 						<img
 							class="img__social footer__child"
-							src="../img/social.png"
+							src="/img/social.png"
 							alt=""
 						/>
-						<img class="img__phone footer__child" src="../img/num.png" alt="" />
+						<div class="d-flex align-items-center justify-content-center">
+							<div>
+								<img src="/img/Frame.png" alt="" />
+							</div>
+							<div class="d-flex flex-column">
+								<span class="numb__footer">+998 71 200-46-46</span>
+								<span class="txt__footer__colm">Свяжитесь с нами</span>
+							</div>
+						</div>
 					</div>
 					<div class="footer__child d-flex flex-column gap-2">
-						<img
-							class="img__email footer__child"
-							src="../img/email.png"
-							alt=""
-						/>
-						<img
-							class="img__adrres footer__child"
-							src="../img/adrres.png"
-							alt=""
-						/>
+						<div>
+							<img src="/img/pochta.png" alt="" />
+							<span class="txt__footer__colm last__txt"
+								>info@uniconsoft.uz</span
+							>
+						</div>
+						<div class="d-flex align-items-center">
+							<div>
+								<img src="/img/local.png" alt="" />
+							</div>
+							<div class="d-flex flex-column">
+								<span class="txt__footer__colm last__txt"
+									>Узбекистан, Ташкент, МИРЗО-</span
+								>
+								<span class="txt__footer__colm last__txt"
+									>УЛУГБЕКСКИЙ РАЙОН, м-в Карасу-2</span
+								>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="d-flex justify-content-between align-items-center last">
@@ -295,10 +390,15 @@
 			</div>
 		</div>
 		<!-- end of footer -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<link rel="stylesheet" href="./index.main.js" />
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			AOS.init()
+		</script>
 	</body>
 </html>
